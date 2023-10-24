@@ -1,0 +1,36 @@
+.feedback {
+    min-height: 920px;
+    padding-bottom: 48px;
+    &__client {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    &__client-photo {
+        width: 169px;
+        height: 169px;
+        margin-right: 60px;
+    }
+
+    &__client-name {
+        color: #0D0D0D;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+
+    .marathon {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    &__client-feedback {
+        color: #0D0D0D;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+}

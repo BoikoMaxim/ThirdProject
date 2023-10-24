@@ -1,0 +1,38 @@
+@import '../bases/variables';
+.button {
+    width: 153px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: $main-color;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    &:hover {
+        transition: 0.5s all;
+        background-color: lightgrey;
+        color: black;
+    }
+
+    &_main {
+        margin-top: 67px;
+        width: 300px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    &_submit {
+        width: 303px;
+        height: 55px;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    &_mini {
+        width: 135px;
+        height: 44px;
+        font-size: 14px;
+    }
+}
